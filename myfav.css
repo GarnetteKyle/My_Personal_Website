@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Futura, Arial, "Helvetica World", sans-serif;
-  background: linear-gradient(120deg, #f7f7f7, #e0f2f1);
+  background: #e0f2f1;
   color: #333333;
 }
 
@@ -49,14 +49,13 @@ header {
 }
 
 .paper {
-  background: white;
   width: 1000px;
   min-height: 80vh;
   margin: 100px auto;
   padding: 40px;
   margin-left: 260px;
   border-radius: 15px;
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
 }
 
@@ -66,13 +65,13 @@ header {
 
 .paper h1 {
   margin-bottom: 30px;
-  background-color: #009688;
   text-align: center;
   border-radius: 10px;
   color: white;
   padding: 15px;
   font-family: Garamond, Palatino, Georgia, serif;
   letter-spacing: 1px;
+  background-color: #00796b;
 }
 
 .music-container {
@@ -85,16 +84,15 @@ header {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  background: #fefefe;
   border-radius: 12px;
   padding: 20px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .music-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
 }
 
 .top-section {
@@ -139,7 +137,16 @@ header {
   height: 300px;
   border: none;
   border-radius: 10px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.music-card iframe[src*="spotify"] {
+  height: 80px;    
+  border: none;
+  border-radius: 0;  
+  margin: 0;
+  padding: 0;
+  display: block;   
 }
 
 .back-top {
