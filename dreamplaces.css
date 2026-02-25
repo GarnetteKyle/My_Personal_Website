@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-size:16px;
+  font-family: Futura, Arial, "Helvetica World", sans-serif;
+  background: #e0f2f1;
+  color: #333333;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 100vh; 
+  padding: 50px 0;
+  background-color: #009688;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px; 
+  box-sizing: border-box;
+}
+
+.home2{
+  margin-top:30px;
+  margin-left:50px;
+}
+
+.home{
+  margin-left: 45px;
+  margin-bottom: 50px;
+}
+.home img{
+  width: 40px;
+  height: auto;
+}
+.home2 img{
+  width: 40px;
+  height: auto;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 15px 0;
+  width: 100%;
+  text-align: center;
+  font-family: 'DM Sans Serif', Garamond, Palatino, serif;
+  display: block; 
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  font-size: 25px;
+  background-color: #009696; 
+  color: #e0f2f1;
+}
+
+.paper {
+  width: 1000px;
+  min-height: 500px;
+  margin: 100px auto;
+  padding: 40px;    
+  border-radius: 15px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.paper2 {
+  width: 1000px;
+  min-height: 500px;
+  margin: 50px auto 100px auto;
+  padding: 40px;    
+  border-radius: 15px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.paper:hover {
+  transform: translateY(-5px);
+}
+
+.paper h1, .paper2 h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  padding: 15px;
+  font-family: Garamond, Palatino, Georgia, serif;
+  letter-spacing: 1px;
+  background-color: #00796b;
+}
+
+.dream img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.back-top {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.back-top a {
+  text-decoration: none;
+  color: #009688;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.back-top a:hover {
+  color: #00796b;
+  text-decoration: underline;
+}
+
+.sweden{
+    border-radius: 10px;
+    padding:10px;
+    width:300px;
+    height:400px;
+    float: left;
+}
+.sweden img{
+    width:300px;
+    height:200px;
+    margin-top:10px;
+    border-radius: 10px;    
+}
+
+.sweden img:hover{
+  transform: translateY(-5px);    
+}
+
+.swedendesc{
+   margin: 35px 100px 0px 400px;
+   line-height:35px;
+   width:500px;
+   text-align:justify;
+}
