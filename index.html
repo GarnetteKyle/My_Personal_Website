@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Garnette Kyle | Portfolio</title>
     <link rel="stylesheet" href="landing_page.css" type="text/css" />
 </head>
@@ -11,72 +12,113 @@
 
     <header>
         <nav>
-            <a class="home" href="index.html">
+            <a class="home" href="#introID">
                 <img src="https://img.icons8.com/?size=100&id=73&format=png&color=000000" alt="Home" />
             </a>
-            <a class="nav-link" href="#intro">About Me</a>
-            <a class="nav-link" href="#blogID">My Blogs</a>
-            <a class="nav-link" href="photo_gallery.html">Photo Gallery</a>
-            <a class="nav-link" href="mybeats.html">Medias</a>
-            <a class="nav-link" href="dreamplaces.html">Dream Places</a>
-            <a class="nav-link" href="bucketlist.html">Bucket List</a>
-            <a class="nav-link" href="#contactID">Contact Me</a>
-
+            <a class="nav-link" href="#introID">About</a>
+            <a class="nav-link" href="#blogID">Blogs</a>
+            <a class="nav-link" href="#galleryID">Gallery</a>
+            <a class="nav-link" href="#dreamsID">Dreams</a>
+            <a class="nav-link" href="#bucketID">Bucket List</a>
+            <a class="nav-link" href="#contactID">Contact</a>
         </nav>
     </header>
 
-    <div class="container">
-        <section id="intro" class="intro">
-            <div class="left">
-                <h1>Hello! I am</h1>
-                <h2>GARNETTE KYLE A. VALENZUELA</h2>
-                <p class="description">
-                    I am a Computer Science student exploring different areas of technology while learning and improving
-                    step by step.
-                    I focus on building my skills consistently, facing challenges with patience, and growing through
-                    experience.
-
-                </p>
+    <section id="introID" class="intro">
+        <div class="left">
+            <h1>Hello! I am</h1>
+            <h2>GARNETTE KYLE A. VALENZUELA</h2>
+            <p class="description">
+                I am a Computer Science student exploring different areas of technology while learning and improving
+                step by step. I focus on building my skills consistently, facing challenges with patience, and growing through
+                experience.
+            </p>
+        </div>
+        <div class="right">
+            <div class="image-wrapper">
+                <img src="IMAGES/GarnettePic.jpg" alt="Garnette Kyle" class="profile-img">
             </div>
+            <a href="biography.html" class="read-more-btn">Read more about me</a>
+        </div>
+    </section>
 
+    <hr class="section-divider">
 
-            <div class="right">
-                <div class="image-wrapper">
-                    <img src="IMAGES/GarnettePic.jpg" alt="Garnette Kyle" class="profile-img"   >
-                </div>
-                <a href="biography.html" class="read-more-btn">Read more about me</a>
-            </div>
-        </section>
-    </div>
-
-    <div id="blogID">
+    <div id="blogID" class="section-wrapper">
         <h2 class="section-title">Latest Blogs</h2>
         <section class="blogs">
-            <div class="blog-item"><a href="biography.html"><img src="IMAGES/BIO.png"></a></div>
-            <div class="blog-item"><a href="blog1.html"><img src="IMAGES/Blog1.png"></a></div>
-            <div class="blog-item"><a href="blog2.html"><img src="IMAGES/Blog2.png"></a></div>
-            <div class="blog-item"><a href="blog3.html"><img src="IMAGES/Blog3.png"></a></div>
+            <div class="blog-item"><a href="biography.html"><img src="IMAGES/BIO.png" alt="Bio"></a></div>
+            <div class="blog-item"><a href="blog1.html"><img src="IMAGES/Blog1.png" alt="Blog 1"></a></div>
+            <div class="blog-item"><a href="blog2.html"><img src="IMAGES/Blog2.png" alt="Blog 2"></a></div>
+            <div class="blog-item"><a href="blog3.html"><img src="IMAGES/Blog3.png" alt="Blog 3"></a></div>
         </section>
     </div>
+
+    <hr class="section-divider">
+
+    <div id="galleryID" class="section-wrapper">
+        <h2 class="section-title">Photo Gallery Preview</h2>
+        <section class="simple-section">
+            <div class="gallery-preview-grid">
+                <img src="IMAGES/CH1.jpg" alt="Captured Moment 1" class="gallery-thumb">
+                <img src="IMAGES/HS2.jpg" alt="Captured Moment 2" class="gallery-thumb">
+                <img src="IMAGES/CL3.jpg" alt="Captured Moment 3" class="gallery-thumb">
+            </div>
+            <p class="section-desc">A small collection of moments captured through my lens.</p>
+            <a href="photo_gallery.html" class="read-more-btn">Open Full Gallery</a>
+        </section>
+    </div>
+
+    <hr class="section-divider">
+
+    <div id="dreamsID" class="section-wrapper">
+        <h2 class="section-title">Dream Destinations</h2>
+        <section class="simple-section">
+            <div class="dreams-preview-grid">
+                <div class="dream-card">
+                    <img src="IMAGES/aurorasweden.jpg" alt="Japan">
+                    <h3>Northern Lights, Sweden</h3>
+                </div>
+                <div class="dream-card">
+                    <img src="IMAGES/sanfrancisco.jpg" alt="Switzerland">
+                    <h3>San Francisco</h3>
+                </div>
+                <div class="dream-card">
+                    <img src="IMAGES/london2.jpg" alt="Iceland">
+                    <h3>London</h3>
+                </div>
+            </div>
+            <p class="section-desc">Explore the places I aspire to visit.</p>
+            <a href="dreamplaces.html" class="read-more-btn">View My Travel Goals</a>
+        </section>
+    </div>
+
+    <hr class="section-divider">
+
+    <div id="bucketID" class="section-wrapper">
+        <h2 class="section-title">My Bucket List</h2>
+        <section class="simple-section">
+            <p class="section-desc">From tech milestones to personal adventures, here is what I plan to achieve.</p>
+            <a href="bucketlist.html" class="read-more-btn">Check the Full List</a>
+        </section>
+    </div>
+
+    <hr class="section-divider">
 
     <div id="contactID">
         <section class="contact">
             <h2>Connect With Me</h2>
             <div class="icon-row">
-                <a href="mailto:garnette@example.com"><img src="IMAGES/mail.png"></a>
-                <a href="tel:+639000000000"><img src="IMAGES/phone-call.png"></a>
-                <a href="https://facebook.com" target="_blank"><img src="IMAGES/facebook.png"></a>
+                <a href="mailto:garnette@example.com"><img src="IMAGES/mail.png" alt="Email"></a>
+                <a href="tel:+639000000000"><img src="IMAGES/phone-call.png" alt="Phone"></a>
+                <a href="https://facebook.com" target="_blank"><img src="IMAGES/facebook.png" alt="Facebook"></a>
             </div>
         </section>
     </div>
 
     <footer>
-        <p>Developed and Designed By Garnette Kyle</p>
+        <p>Developed and Designed By Garnette Kyle &copy; 2026</p>
     </footer>
 
 </body>
-
 </html>
-
-
-
