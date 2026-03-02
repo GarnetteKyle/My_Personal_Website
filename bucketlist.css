@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: Futura, Arial, sans-serif;
+  background: #e0f2f1;
+}
+
+.home2{
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.home2 img{
+  width: 40px;
+}
+
+.paper2 {
+  width: 1000px;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+  background: #ffffff;
+}
+
+.paper2 h1 {
+  text-align: center;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #00796b;
+}
+
+/* GRID OF CARDS */
+.bucket {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-top: 30px;
+}
+
+/* EACH CARD */
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  overflow: hidden;
+  text-align: center;
+  transition: 0.2s;
+}
+
+/* IMAGE */
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* TEXT */
+.card p {
+  padding: 15px;
+  font-size: 18px;
+}
+
+/* HOVER EFFECT */
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.back-top {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.back-top a {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #009688;
+  padding: 12px 25px;
+  border-radius: 25px;
+  transition: 0.2s;
+}
+
+.back-top a:hover {
+  background-color: #00796b;
+}
